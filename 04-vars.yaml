@@ -7,5 +7,7 @@
     NAME: Mallikharjun
   tasks:
   - name: print the course information
+    vars:
+      COURSE: Ansible
     ansible.builtin.debug:
       msg: "Course is: {{ COURSE }}, Duration is: {{ DURATION }}, Name is: {{ NAME }}"
