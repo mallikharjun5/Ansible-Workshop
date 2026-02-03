@@ -1,6 +1,6 @@
 - name: testing course.yaml file for variables
   hosts: local
-  connection: localhost
+  connection: local
   vars_files:
   - course.yaml
   tasks:
