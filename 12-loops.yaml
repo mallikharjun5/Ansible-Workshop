@@ -4,8 +4,8 @@
   become: yes
   tasks:
   - name: print names
-    ansible.builtin.package:
-      name: "{{ item }}"
+    ansible.builtin.debug:
+      msg: "Hello {{ item }}" # item is reserved
     loop:
     - nginx
     - mysql
