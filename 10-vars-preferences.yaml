@@ -16,6 +16,8 @@
     ansible.builtin.debug:
       msg: "Name: {{ NAME }}"
 
+
+#### order of taking variables 
 # 1. args or command line
 # 2. from task
 # 3. files
