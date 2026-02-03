@@ -9,5 +9,6 @@
   - name: print the course information
     vars:
       COURSE: Ansible
+      NAME: Arjun
     ansible.builtin.debug:
       msg: "Course is: {{ COURSE }}, Duration is: {{ DURATION }}, Name is: {{ NAME }}"
